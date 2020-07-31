@@ -8,8 +8,6 @@ obj = requests_noblock()
 response = obj.get(url = _url)
 
 print(response)
-print(response["data"].text)
-print("*"*100)
 
 
 
