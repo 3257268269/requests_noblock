@@ -30,7 +30,7 @@ class requests_noblock(object):
                 break  #请求结束
 
         if t_req.isAlive(): #杀死卡住的请求线程
-            self.stop_thread(self, t_req)
+            self.stop_thread(t_req)
 
         return self.response
 
