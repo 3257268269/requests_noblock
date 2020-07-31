@@ -1,0 +1,2 @@
+# requests_noblock
+经典python库requests的绝不线程卡死的解决方案
